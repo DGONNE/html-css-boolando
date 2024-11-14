@@ -25,13 +25,14 @@ header {
     margin: auto;
 }
 
- 
+ .row {
+    display: flex;
+ }
 
 header .row {
 height:100%;
 align-items: center;
 padding: 0 100px;
-display: flex;
 }
 
 .main-nav {
@@ -42,5 +43,13 @@ display: flex;
     width: 60%;
     text-align: center;
     max-height: 30px;
+}
 
+.products {
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.products .col {
+    width: calc(100% / 3);
 }
