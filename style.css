@@ -1,0 +1,46 @@
+/*------------
+    RESET
+-------------*/
+* {
+   box-sizing: border-box; 
+   margin: 0;
+   padding: 0;
+}
+
+/*------------
+    HEADER
+-------------*/
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: orangered;
+    height: 60px;
+    color: white;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+ 
+
+header .row {
+height:100%;
+align-items: center;
+padding: 0 100px;
+display: flex;
+}
+
+.main-nav {
+    width: 20%;
+}
+
+.logo {
+    width: 60%;
+    text-align: center;
+    max-height: 30px;
+
+}
